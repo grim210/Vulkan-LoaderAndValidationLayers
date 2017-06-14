@@ -2782,8 +2782,7 @@ static void demo_run(struct demo *demo) {
     while (!demo->quit) {
         if (demo->pause) {
             wl_display_dispatch(demo->display);  // block and wait for input
-        }
-        else {
+        } else {
             wl_display_dispatch_pending(demo->display);  // don't block
             demo_draw(demo);
             demo->curFrame++;
