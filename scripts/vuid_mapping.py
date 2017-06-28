@@ -502,6 +502,8 @@ func_struct_id_map = {
 'VkDisplayPlaneCapabilitiesKHR' : 446,
 'VkSharedPresentSurfaceCapabilitiesKHR' : 447,
 'VkExternalImageFormatPropertiesNV' : 448,
+'VkPhysicalDeviceProperties' : 449,
+'VkSurfaceFormatKHR' : 450,
 ### ADD New func/struct mappings above this line
 }
 # Mapping of params to unique IDs
@@ -955,6 +957,8 @@ implicit_param_map = {
 'physicalDeviceCount' : 446,
 'waitSemaphoreValuesCount' : 447,
 'signalSemaphoreValuesCount' : 448,
+'deviceType' : 449,
+'colorSpace' : 450,
 ### ADD New implicit param mappings above this line
 }
 
