@@ -959,6 +959,12 @@ implicit_param_map = {
 'signalSemaphoreValuesCount' : 448,
 'deviceType' : 449,
 'colorSpace' : 450,
+'pfnAllocation' : 451,
+'pfnReallocation' : 452,
+'pfnFree' : 453,
+'blendConstants' : 454,
+'displayName' : 455,
+'pfnCallback' : 456,
 ### ADD New implicit param mappings above this line
 }
 
